@@ -6,7 +6,7 @@ public class SelectSort {
         int [] result = new int[length];
         System.arraycopy(array, 0, result, 0, length);
 
-        for (int i = 0; i < length; i++){
+        for (int i = 0; i < length - 1; i++){
             int minIndex = i;
 
             for (int j = i+1; j < length; j++) {
